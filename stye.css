@@ -117,7 +117,7 @@
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 1.5px;
+  height: 2px;
   bottom: 0;
   left: 0;
   background-color: #000;
@@ -129,3 +129,9 @@
   transform: scaleX(1);
   transform-origin: bottom left;
 }
+
+.line1 {
+    width: 70%;
+    height: 2px;
+    background: #000;
+  }
