@@ -24,12 +24,12 @@
   align-items: center;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: center;
-    gap: 40px;
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
 }
 
 .line {
@@ -130,8 +130,32 @@
   transform-origin: bottom left;
 }
 
-.line1 {
-    width: 70%;
-    height: 2px;
-    background: #000;
+.container {
+  position: relative;
+}
+
+.sparkle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+  opacity: 1;
+  pointer-events: none;
+  /* animation: sparkleAnim 2s infinite; */
+}
+
+@keyframes sparkleAnim {
+  0% {
+    opacity: 0;
   }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
