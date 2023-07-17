@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding-top: 25px;
+}
+
+.nav a{
+    text-decoration: none;
+    color: #000;
+    font-size: larger;
+    transition: .2s;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.applogo{
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.line{
+    width: 70%;
+    height: 2px;
+    background: #000;
+}
+
+.box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.leftcont{
+    height: 400px;
+    width: 300px;
+    border: 2px solid black;
+    border: 1.5px solid black;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+    gap: 70%;
+    /* background:#e3e3e3; */
+}
+
+.left1{
+    padding-top: 10%;
+    padding-left: 25%;
+}
+
+.left2{
+    padding-left: 25%;
+}
+
+.start{
+    width: 10rem;
+    height: 2rem;
+    color: aliceblue;
+    background: #000;
+    border: none;
+    padding-right:30%;
+    font-size: medium;
+    border-radius: 6px;
+    box-shadow: rgba(255, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 20px;
+    cursor: pointer;
+    transition: .5s ease-in-out;
+}
+
+.start:hover{
+    width: 10.5rem;
+    height: 2.5rem;
+    background: aliceblue;
+    color: black;
+    font-size: larger;
+    padding-right:30px ;
+}
+
+.rightcont{
+    height: 400px;
+    width: 600px;
+    /* background: #000; */
+    border: 1.5px solid black;
+    background: url(./assets/1685891177082.jpeg);
+    background-size: cover;
+    border-radius: 6px;
+}
