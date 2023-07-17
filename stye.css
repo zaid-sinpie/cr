@@ -24,16 +24,12 @@
   align-items: center;
 }
 
-.applogo {
-  /* box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px; */
-}
-
-.container {
-  display: flex;
-  justify-content: center;
-  flex-direction: column;
-  align-items: center;
-  gap: 40px;
+.container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
 }
 
 .line {
@@ -122,12 +118,12 @@
   position: absolute;
   width: 100%;
   transform: scaleX(0);
-  height: 2px;
+  height: 1.5px;
   bottom: 0;
   left: 0;
-  background-color: blue;
+  background-color: #000;
   transform-origin: bottom right;
-  transition: transform 0.25s ease-out;
+  transition: transform 0.5s ease-out;
 }
 
 .nav a:hover::after {
