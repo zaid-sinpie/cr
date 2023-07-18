@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  cursor: none;
 }
 
 .nav {
@@ -84,7 +85,7 @@
   justify-content: space-between;
   align-items: center;
   padding-left: 20px;
-  cursor: pointer;
+  /* cursor: pointer; */
   transition: 0.5s ease-in-out;
 }
 
