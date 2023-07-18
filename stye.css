@@ -17,6 +17,11 @@
   color: #000;
   font-size: larger;
   transition: 0.2s;
+  transition: .5s;
+}
+
+.nav a:hover{
+  font-size: x-large;
 }
 
 .logo {
@@ -85,7 +90,6 @@
   justify-content: space-between;
   align-items: center;
   padding-left: 20px;
-  /* cursor: pointer; */
   transition: 0.5s ease-in-out;
 }
 
@@ -142,11 +146,20 @@
   transform: translate(-50%, -50%);
   width: 10px;
   height: 10px;
-  background-color: #000;
+  /* background-color: #000000; */
   border-radius: 50%;
   opacity: 1;
   pointer-events: none;
+  animation: myanimation 10s infinite;
   /* animation: sparkleAnim 2s infinite; */
+}
+
+@keyframes myanimation {
+  0% {background-color: red;}
+  25%{background-color:yellow;}
+  50%{background-color:rgb(0, 78, 196);}
+  75%{background-color:brown;}
+  100% {background-color: red;}
 }
 
 @keyframes sparkleAnim {
