@@ -4,6 +4,10 @@
   /* cursor: none; */
 }
 
+body{
+  margin: 10px;
+}
+
 .nav {
   display: flex;
   justify-content: center;
@@ -201,8 +205,8 @@
 .applogo{
   transition: ease-in-out ;
   animation: text 100s infinite;
-  border: 1px solid rgb(57, 31, 57);
-  border-radius:4px;
+  /* border: 1px solid rgb(57, 31, 57);
+  border-radius:4px; */
   padding: 10px;
   cursor: pointer;
 }
