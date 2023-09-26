@@ -1,7 +1,7 @@
 * {
   margin: 0;
   padding: 0;
-  cursor: none;
+  /* cursor: none; */
 }
 
 .nav {
@@ -91,6 +91,7 @@
   align-items: center;
   padding-left: 20px;
   transition: 0.5s ease-in-out;
+  cursor: pointer;
 }
 
 .start:hover {
@@ -110,7 +111,19 @@
   background: url(./assets/1685891177082.jpeg);
   background-size: cover;
   border-radius: 6px;
+  /* display: flex;
+  justify-content: space-around;
+  align-items:start;
+  gap: 6px;
+  flex-wrap: wrap ; */
 }
+
+/* .con{
+  height: 100px;
+  width: 100px;
+  border: 1px solid black;
+  border-radius: 7px;
+} */
 
 .nav a {
   display: inline-block;
@@ -150,7 +163,7 @@
   border-radius: 50%;
   opacity: 1;
   pointer-events: none;
-  animation: myanimation 10s infinite;
+  /* animation: myanimation 10s infinite; */
   /* animation: sparkleAnim 2s infinite; */
 }
 
@@ -160,6 +173,14 @@
   50%{background-color:rgb(0, 78, 196);}
   75%{background-color:brown;}
   100% {background-color: red;}
+}
+
+@keyframes text {
+  0% {color: red;}
+  25%{color:yellow;}
+  50%{color:rgb(0, 78, 196);}
+  75%{color:brown;}
+  100% {color: red;}
 }
 
 @keyframes sparkleAnim {
@@ -172,4 +193,13 @@
   100% {
     opacity: 0;
   }
+}
+
+.applogo{
+  transition: ease-in-out ;
+  animation: text 100s infinite;
+  border: 1px solid rgb(57, 31, 57);
+  border-radius:4px;
+  padding: 10px;
+  cursor: pointer;
 }
