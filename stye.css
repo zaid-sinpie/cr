@@ -115,9 +115,10 @@ body{
   width: 600px;
   /* background: #000; */
   border: 1.5px solid black;
-  background: url(./assets/1685891177082.jpeg);
+  /* background: url(./assets/SAVE_20230529_012208.jpg); */
   background-size: cover;
   border-radius: 6px;
+  animation: bg 10s infinite ;
   /* display: flex;
   justify-content: space-around;
   align-items:start;
@@ -214,3 +215,15 @@ body{
 .leftcont{
   animation: myanimation 100s infinite;
 } */
+
+@keyframes bg {
+  0%{
+    background-image: url(./assets/1685891177082.jpeg);
+  }  
+  50%{
+    background-image: url(./assets/SAVE_20230529_012208.jpg);
+  }
+  100%{
+    background-image: url(./assets/1685891177082.jpeg);
+  }
+}
