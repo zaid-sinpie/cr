@@ -9,7 +9,10 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-  padding-top: 25px;
+  padding: 25px;
+  border: 1px solid black;
+  border-radius: 5px;
+  margin: 2px;
 }
 
 .nav a {
@@ -203,3 +206,7 @@
   padding: 10px;
   cursor: pointer;
 }
+/* 
+.leftcont{
+  animation: myanimation 100s infinite;
+} */
